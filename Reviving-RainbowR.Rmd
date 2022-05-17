@@ -4,8 +4,8 @@ author: "Ella Kaye (She/Her) and Zane Dax (She/They)"
 date: "May 18th, 2022"
 output:
   xaringan::moon_reader:
+
     includes:
-      # in_header: header.html
     seal: false
     css: [xaringan-themer.css, extra.css]
     lib_dir: libs
@@ -22,12 +22,13 @@ knitr::opts_chunk$set(collapse = TRUE, fig.retina = 3)
 
 ```{r xaringan-themer, include=FALSE, warning=FALSE}
 library(xaringanthemer)
-style_solarized_light(
-    text_font_google = google_font("Montserrat")
+style_mono_dark(
+    base_color = "#D4006A",
+    text_font_google = google_font("Montserrat"),
 )
 ```
 
-class: inverse, center, middle
+class: center, middle
 
 # Reviving RainbowR
 
@@ -68,7 +69,7 @@ class: inverse, center, middle
 
 ---
 
-class: inverse, center, middle
+class: center, middle
 
 # Our mission is to *support*, *promote* and *connect* LGBTQ+ people in the R community and to *spread awareness* of LGBTQ+ issues through data-driven activism.
 
@@ -92,7 +93,7 @@ To our straight, cis friends: we very much appreciate your allyship and your sup
 
 ---
 
-class: inverse, center, middle
+class: center, middle
 
 # Past, present, future
 
@@ -179,7 +180,7 @@ class: inverse, center, middle
 
 ---
 
-class: inverse, center, middle
+class: center, middle
 
 # Thank you!
 
