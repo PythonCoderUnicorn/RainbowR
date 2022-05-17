@@ -4,8 +4,6 @@ author: "Ella Kaye (She/Her) and Zane Dax (She/They)"
 date: "May 18th, 2022"
 output:
   xaringan::moon_reader:
-    includes:
-      in_header: header.html
     seal: false
     css: [xaringan-themer.css, extra.css]
     lib_dir: libs
