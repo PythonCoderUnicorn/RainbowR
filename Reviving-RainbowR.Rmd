@@ -21,7 +21,8 @@ knitr::opts_chunk$set(collapse = TRUE, fig.retina = 3)
 ```{r xaringan-themer, include=FALSE, warning=FALSE}
 library(xaringanthemer)
 style_mono_dark(
-    base_color = "#D4006A",
+    #base_color = "#D4006A",
+    base_color = "#32fbe2",
     text_font_google = google_font("Montserrat"),
 )
 ```
@@ -34,10 +35,12 @@ class: center, middle
 
 ### May 18th, 2022
 
+![](pride-hexes.png)
+
 ---
 
 ## Overview
-
+.pull-left[
 -   Notes about this session
 
 -   What is RainbowR?
@@ -51,7 +54,13 @@ class: center, middle
 -   Back together
 
 -   Next steps
+]
 
+.pull-right[
+```{r, echo=FALSE, out.width="75%"}
+knitr::include_graphics("RainbowR.png")
+```
+]
 ---
 
 ## Session Notes
@@ -113,13 +122,13 @@ class: center, middle
 
 - New-found interest and driving-force in the group (Zane)!
 
-- This is an announcement of intent to *really* get it going this time!
+- This is an announcement of intent to *really* get RainbowR going this time!
 
 --
 
 ### Existing infrastructure
 
--   Slack: [https://rainbowr.slack.com](https://rainbowr.slack.com) (currently dormant)
+-   Slack: [https://rainbowr.slack.com](https://rainbowr.slack.com) (60 members, currently dormant)
 
 -   GitHub: [rlgbtq](https://github.com/rlgbtq) (currently dormant)
 
@@ -132,6 +141,7 @@ class: center, middle
 -   Revive the Slack group 
     -   Needs sign-up page
     -   New Code of Conduct and review process
+    -   Ownership
     
 -   New website
     - Introductory blog-post
@@ -151,6 +161,8 @@ class: center, middle
   - ideas for data sets for data-driven activism
   
   - would you like to contribute and, if so, how?
+  
+  - Anything else you'd like to add
   
 - Notes on the etherpad (put link in chat again!)
 
@@ -175,6 +187,8 @@ class: center, middle
   - Announcements on Twitter
   
   - Announcements through other groups promoting diversity and community in R
+  
+  - Another community call, perhaps as part of next Forwards Slackathon
 
 ---
 
@@ -182,9 +196,6 @@ class: center, middle
 
 # Thank you!
 
-
-
-
-
-
-
+```{r, echo=FALSE, out.width="50%"}
+knitr::include_graphics("rainbow-hearts.png")
+```

@@ -38,11 +38,11 @@
 }
 .pull-left {
   float: left;
-  width: 47%;
+  width: 57%;
 }
 .pull-right {
   float: right;
-  width: 47%;
+  width: 37%;
 }
 div.my-footer {
   background-color: #FDFCFA;
@@ -82,3 +82,6 @@ div.my-footer span {
   color: #002B36
 }
 
+.remark-slide-number {
+  display: none;
+}
