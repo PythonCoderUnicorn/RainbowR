@@ -158,6 +158,8 @@ class: center, middle
 
   - what would *you* like RainbowR to be, in order to best serve its community?
   
+  - what kind of activities would you like RainbowR to run?
+  
   - ideas for blog-posts
   
   - ideas for data sets for data-driven activism
